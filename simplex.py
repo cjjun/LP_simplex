@@ -15,12 +15,14 @@ from numpy.core.fromnumeric import shape
 # m: # of equality constraints
 # n: # of variables
 # 
-# maximize c1 * N1 + ... + cn * Nn + cn+1 * 1
-#       N1 N2 ...  Nn 1
-# B1 =  
-# B2 =
-# ...
-# Bm = 
+#maximize c1 * N1 + ... + cn * Nn + cn+1 * 1
+#----------------------------
+#|       N1   N2 ...  Nn   1|
+#|B1 =  a11  a12 ... a1n  b1|
+#|B2 =  a21  a22 ... a2n  b2|
+#|...                       |
+#|Bm =  am1  am2 ... amn  bm|
+#----------------------------
 # 
 
 # the last column of A is extended constance
