@@ -42,7 +42,7 @@ maximize c1 * N1 + ... + cn * Nn + cn+1 * 1
             x0, x1, ..., xn >= 0
 
 ```
-check if its optimal value is 0. If true, eliminate x0,
+check if it's optimal value is 0. If true, eliminate x0,
 and forward the revised `(B, N, A)` to pivot iteration. Otherwise, we claim its infeasible since the domain is empty set.
 
 
