@@ -7,7 +7,7 @@ from numpy.core.fromnumeric import shape
 #  subject to 
 #         Ax <= b
 #         x >= 0
-#  return INF if unbounded, NAN if infeasible, optimal z* and x* if feasible.
+#  return INF if unbounded, 'infeasible' if infeasible, 'optimal', z* and x* if feasible.
 
 #
 # B = {basic} , N = {Non-basic} 
