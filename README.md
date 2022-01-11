@@ -2,11 +2,12 @@
 A implementation for simplex algorithm solving LP
 
 Implementation of simplex algorithm
-
+```
  maximize z = c'[x, 1]
  subject to 
         Ax <= b
         x >= 0
+ ```
  return 'unbounded' if unbounded, 'infeasible' if infeasible, 'optimal',z* and x* if feasible.
  
  INPUT: 
