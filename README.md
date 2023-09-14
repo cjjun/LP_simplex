@@ -47,7 +47,7 @@ check if its optimal value is 0. If true, eliminate x0,
 and forward the revised `(B, N, A)` to pivot iteration. Otherwise, we claim its infeasible since the domain is empty set.
 
 
-If it's reaily prepared, we do nothing and directly forward to next step.
+If it's readily prepared, we do nothing and directly forward to next step.
 
 - Step 2: pivot slackness 
   
